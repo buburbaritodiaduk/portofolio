@@ -43,7 +43,7 @@ const About = () => {
                             transition={{ delay: 0.2 }}
                             className="text-lg text-gray-400 leading-relaxed mb-12"
                         >
-                            Memiliki pengalaman dalam pengembangan proyek digital, organisasi, serta kemampuan komunikasi dan kepemimpinan.
+                            Saya memiliki pengalaman dalam pengembangan proyek digital, organisasi, serta kemampuan komunikasi dan kepemimpinan.
                         </motion.p>
 
                         <motion.p
@@ -53,17 +53,7 @@ const About = () => {
                             transition={{ delay: 0.3 }}
                             className="text-lg text-gray-400 leading-relaxed mb-6"
                         >
-                            Selain itu, saya memiliki ketertarikan besar dalam dunia olahraga yang telah mengasah soft skills saya seperti sportivitas, disiplin, dan kerja sama tim yang solid.
-                        </motion.p>
-
-                        <motion.p
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: 0.4 }}
-                            className="text-lg text-gray-400 leading-relaxed mb-12"
-                        >
-                            Seni dan musik juga menjadi bagian penting dalam hidup saya, memberikan keseimbangan dan memicu kreativitas yang saya terapkan dalam setiap karya digital.
+                            Selain itu, saya memiliki ketertarikan besar dalam dunia olahraga dan seni. Keduanya telah mengasah soft skills saya seperti sportivitas, disiplin, dan kerja sama tim yang solid, sekaligus memberikan keseimbangan dan memicu kreativitas yang saya terapkan dalam setiap karya digital.
                         </motion.p>
                     </div>
 

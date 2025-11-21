@@ -24,22 +24,22 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-black/40 mix-blend-multiply"></div>
             </div>
 
-            <div className="w-full px-4 relative z-10 mix-blend-difference">
+            <div className="w-full px-8 md:px-12 relative z-10 mix-blend-difference">
                 <div className="flex flex-col items-center justify-center w-full">
                     <motion.h1
                         initial={{ y: 100, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-                        className="text-[12vw] md:text-[13vw] leading-[0.8] font-extrabold font-['Syne'] tracking-tighter text-white text-center w-full"
+                        className="text-[11vw] md:text-[12vw] leading-[0.8] font-extrabold font-['Syne'] tracking-tight text-white text-center w-full"
                     >
-                        ARYANDANA
+                        NANDA
                     </motion.h1>
 
                     <motion.h1
                         initial={{ y: 100, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-                        className="text-[12vw] md:text-[13vw] leading-[0.8] font-extrabold font-['Syne'] tracking-tighter text-white text-center w-full"
+                        className="text-[11vw] md:text-[12vw] leading-[0.8] font-extrabold font-['Syne'] tracking-tight text-white text-center w-full"
                     >
                         PATIUNG
                     </motion.h1>
