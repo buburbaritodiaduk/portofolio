@@ -5,7 +5,7 @@ const experiences = [
     {
         company: "PT. Solusindo Energi Utama",
         role: "Document Control and Editor",
-        period: "2021 - Present",
+        period: "2021 - 2021",
         description: [
             "Mengelola dan menyunting dokumen.",
             "Mengatur arsip dokumen masuk dan keluar perusahaan (digital & fisik).",
@@ -24,7 +24,7 @@ const experiences = [
     {
         company: "PT. WKB Suka Rasa",
         role: "Tim Pengawasan Intern",
-        period: "2025 - Present",
+        period: "2025 - 2025",
         description: [
             "Berperan sebagai penghubung antara kebutuhan restoran dengan pemilik.",
             "Mengawasi kebersihan area, ketersediaan bahan, dan kualitas pelayanan kepada pelanggan."
@@ -50,7 +50,7 @@ const organizations = [
 const Experience = () => {
     return (
         <section id="experience" className="py-32 bg-[#050505] text-white">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-6 md:px-12">
                 <div className="mb-20">
                     <span className="block text-sm uppercase tracking-widest text-gray-500 mb-4">Career Path</span>
                     <h2 className="text-[10vw] leading-[0.8] font-bold font-['Syne'] tracking-tighter uppercase">

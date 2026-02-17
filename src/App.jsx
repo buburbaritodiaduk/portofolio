@@ -5,7 +5,9 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Cursor from './components/Cursor';
+
+import ScrollProgress from './components/ScrollProgress';
+import MusicPlayer from './components/MusicPlayer';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
@@ -14,6 +16,7 @@ import Volunteer from './components/Volunteer';
 function App() {
   useEffect(() => {
     const lenis = new Lenis();
+    window.lenis = lenis;
 
     function raf(time) {
       lenis.raf(time);
@@ -26,7 +29,9 @@ function App() {
   return (
     <Layout>
       <div className="noise-bg"></div>
-      <Cursor />
+
+      <ScrollProgress />
+      <MusicPlayer />
       <Hero />
       <About />
       <Education />

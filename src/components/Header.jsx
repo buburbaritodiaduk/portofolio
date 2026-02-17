@@ -28,6 +28,13 @@ const Header = () => {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
+              onClick={(e) => {
+                e.preventDefault();
+                const target = document.getElementById(item.toLowerCase());
+                if (target && window.lenis) {
+                  window.lenis.scrollTo(target);
+                }
+              }}
               className="text-sm font-medium text-gray-400 hover:text-white transition-colors"
             >
               {item}

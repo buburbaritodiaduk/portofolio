@@ -38,7 +38,16 @@ const projects = [
         description: "Gerakan kolaboratif yang berfokus pada pengembangan kapasitas generasi muda Indonesia menuju visi kesuksesan tahun 2030. Tech Stack: React.js, Django, HTML, CSS, JavaScript.",
         role: "Co-Founder & CTO",
         link: "https://www.instagram.com/2030.sukses?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-    }
+    },
+    // {
+    //     id: 5,
+    //     title: "QIOS",
+    //     category: "Web Development & AI",
+    //     year: "2025 - Present",
+    //     description: "Gerakan kolaboratif yang berfokus pada pengembangan kapasitas generasi muda Indonesia menuju visi kesuksesan tahun 2030. Tech Stack: React.js, Django, HTML, CSS, JavaScript.",
+    //     role: "Co-Founder & CTO",
+    //     link: "https://www.instagram.com/2030.sukses?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+    // }
 ];
 
 const Projects = () => {
@@ -46,7 +55,7 @@ const Projects = () => {
 
     return (
         <section id="projects" className="py-32 bg-[#050505] text-white">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-6 md:px-12">
                 <div className="mb-20">
                     <span className="block text-sm uppercase tracking-widest text-gray-500 mb-4">Selected Works</span>
                     <h2 className="text-[10vw] leading-[0.8] font-bold font-['Syne'] tracking-tighter uppercase">

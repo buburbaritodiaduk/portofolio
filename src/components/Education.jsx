@@ -7,6 +7,7 @@ const education = [
         degree: "Ilmu Komputer, Fakultas Ilmu Komputer",
         period: "2024 - Present",
         achievements: [
+            "Finalist of ShARE UI International Business Case Competition (SIBCC) 2026",
             "Juara 3 pada kompetisi Business Case Competition FIK FAIR 2025"
         ]
     },
